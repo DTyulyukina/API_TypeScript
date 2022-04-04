@@ -1,0 +1,10 @@
+# Ignore artifacts:
+public/dist
+coverage
+
+# Ignore all HTML files:
+pages/*.html
+
+node_modules
+img
+__tests__

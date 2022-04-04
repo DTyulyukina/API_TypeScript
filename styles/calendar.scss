@@ -1,0 +1,94 @@
+.Calendar {
+  margin: 20px auto auto auto;
+  margin-top: -22px;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 5px;
+  width: 322px;
+  .week-day {
+    font-size: 22px;
+    font-weight: 300;
+    padding: 12px 10px;
+    border-bottom: 2px solid #f65261;
+    color: #f65261;
+    width: 200px;
+  }
+  td {
+    padding: 10px;
+    color: #ffffff;
+  }
+  .array-name-month:hover {
+    background: #f65261;
+    border-radius: 10px;
+  }
+  .Calendar-day:hover {
+    background: #f65261;
+    border-radius: 10px;
+  }
+  .array-year:hover {
+    background: #f65261;
+    border-radius: 10px;
+  }
+  .today span {
+    border-radius: 50%;
+    background: #f65261;
+    display: block;
+    width: 40px;
+    height: 23px;
+    margin: auto;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 2px 2px 2px;
+  }
+
+  .name-year {
+    font-size: 30px;
+    th {
+      margin: 10px;
+      text-shadow: #999999 0 0 2px;
+      color: #f65261;
+      font-style: italic;
+    }
+  }
+  .name-month {
+    font-size: 30px;
+    th {
+      margin: 10px;
+      text-shadow: #999999 0 0 2px;
+      font-style: italic;
+      color: #ffffff;
+    }
+  }
+  tbody {
+    tr {
+      th:first-child:not(.week-day) {
+        text-shadow: #999999 0 0 2px;
+        font-style: italic;
+      }
+    }
+  }
+  .arrow {
+    width: 0px;
+    height: 0px;
+    border: 10px solid transparent;
+    border-top-color: #f65261;
+    margin: 0;
+    padding: 0;
+  }
+  .left {
+    transform: rotate(90deg) translate(7px, 10px);
+    -webkit-transform: rotate(90deg) translate(7px, 10px);
+    -moz-transform: rotate(90deg) translate(7px, 10px);
+    -o-transform: rotate(90deg) translate(7px, 10px);
+    -ms-transform: rotate(90deg) translate(7px, 10px);
+    float: left;
+  }
+  .right {
+    transform: rotate(270deg) translate(-5px, 10px);
+    -webkit-transform: rotate(270deg) translate(-5px, 10px);
+    -moz-transform: rotate(270deg) translate(-5px, 10px);
+    -o-transform: rotate(270deg) translate(-5px, 10px);
+    -ms-transform: rotate(270deg) translate(-5px, 10px);
+    float: right;
+  }
+}

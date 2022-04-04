@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "declaration": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "incremental": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "pages",
+    "rootDir": "pages",
+    "outDir": "public/dist",
+    "noEmit": false,
+    "skipLibCheck": true
+  },
+  "include": ["pages/**/*", "../../packages/**/*", "__tests__"],
+  "exclude": ["node_modules", "build", "__tests__", "img", "styles"] //  *** Файлы, которые не нужно вводить, проверять ***
+}

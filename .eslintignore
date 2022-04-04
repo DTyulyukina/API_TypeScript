@@ -1,0 +1,12 @@
+/.git
+/.vscode
+node_modules
+img
+styles
+pages/index.html
+public/dist/**
+webpack.config.js
+.babelrc
+.eslintrc
+.next
+next.config.js

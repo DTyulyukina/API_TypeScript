@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add window form test component Container 1`] = `
+Object {
+  "$$typeof": Symbol(react.memo),
+  "WrappedComponent": [Function],
+  "compare": null,
+  "type": [Function],
+}
+`;
